@@ -1,0 +1,50 @@
+{
+  "reviews": 83168,
+  "listings": 3818,
+  "listings_rated": 3171,
+  "reviews_last_18m_share": 0.7875226039783002,
+  "reviews_2015_share": 0.6172686610234706,
+  "median_words": 56.0,
+  "mean_words": 69.20687043093497,
+  "p90_words": 131.0,
+  "median_reviews_per_listing": 12.0,
+  "max_reviews_per_listing": 463,
+  "reviews_gini": 0.6195499039548551,
+  "top20pct_listings_review_share": 0.6469218930357831,
+  "mean_rating": 94.53926206244087,
+  "median_rating": 96.0,
+  "sd_rating": 6.606083179599021,
+  "share_rating_ge_90": 0.8656575212866604,
+  "share_rating_ge_95": 0.6379690949227373,
+  "share_rating_100": 0.24629454430778935,
+  "rating_iqr": [
+    93.0,
+    99.0
+  ],
+  "subscore_medians": {
+    "Check-in": 10.0,
+    "Communication": 10.0,
+    "Location": 10.0,
+    "Accuracy": 10.0,
+    "Cleanliness": 10.0,
+    "Value": 10.0
+  },
+  "subscore_share_ge_9": {
+    "Check-in": 0.8033001571503405,
+    "Communication": 0.8088004190675746,
+    "Location": 0.787323205866946,
+    "Accuracy": 0.7833944473546359,
+    "Cleanliness": 0.7598218962807752,
+    "Value": 0.7627029858564693
+  },
+  "subscore_share_perfect_10": {
+    "Check-in": 0.6925091671031954,
+    "Communication": 0.7071765322158198,
+    "Location": 0.5557883708748036,
+    "Accuracy": 0.5921948664222105,
+    "Cleanliness": 0.5660031430068099,
+    "Value": 0.464903090623363
+  },
+  "min_subscore_share_perfect_10": 0.464903090623363,
+  "aspects_with_official_subscore": 6
+}

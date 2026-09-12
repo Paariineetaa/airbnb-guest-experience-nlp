@@ -1,0 +1,188 @@
+{
+  "aspects": [
+    "cleanliness",
+    "location",
+    "host_communication",
+    "checkin",
+    "value",
+    "accuracy",
+    "noise",
+    "space_comfort"
+  ],
+  "reviews_scoreable": 82892,
+  "sentences_total": 446692,
+  "sentences_with_aspect": 283221,
+  "sentence_match_rate": 0.6340409051426934,
+  "unique_sentences_scored": 273394,
+  "mentions_total": 265712,
+  "reviews_with_no_aspect": 1883,
+  "reviews_with_no_aspect_share": 0.02271630555421511,
+  "mention_rate": {
+    "cleanliness": 0.3789750518747286,
+    "location": 0.7847078125753993,
+    "host_communication": 0.6217005259856199,
+    "checkin": 0.24300294358924865,
+    "value": 0.07438594798050475,
+    "accuracy": 0.17859383293924624,
+    "noise": 0.24190512956618251,
+    "space_comfort": 0.6822491917193456
+  },
+  "negative_mention_rate": {
+    "cleanliness": 0.014324823327178965,
+    "location": 0.02049318943516896,
+    "host_communication": 0.013272790778903249,
+    "checkin": 0.04964503797845406,
+    "value": 0.06908855011352578,
+    "accuracy": 0.034990543096460415,
+    "noise": 0.06168960702174347,
+    "space_comfort": 0.01975138365780772
+  },
+  "complaint_incidence": {
+    "cleanliness": 0.00542875066351397,
+    "location": 0.016081165854364716,
+    "host_communication": 0.008251701008541236,
+    "checkin": 0.012063890363364378,
+    "value": 0.005139217294793225,
+    "accuracy": 0.006249095208222748,
+    "noise": 0.014923032379481737,
+    "space_comfort": 0.013475365535878008
+  },
+  "mean_sentiment": {
+    "cleanliness": 0.6507036130858028,
+    "location": 0.5099390540109866,
+    "host_communication": 0.5861275947147853,
+    "checkin": 0.43532596089153036,
+    "value": 0.46663974213428483,
+    "accuracy": 0.3800419759299289,
+    "noise": 0.45135576926578197,
+    "space_comfort": 0.5576222286270844
+  },
+  "most_mentioned_aspect": "location",
+  "most_negative_aspect": "value",
+  "validation": {
+    "cleanliness": {
+      "label": "Cleanliness",
+      "subscore": "review_scores_cleanliness",
+      "n": 1791,
+      "pearson_r": 0.4027988339831943,
+      "spearman_rho": 0.25900275411103324,
+      "p_value": 7.880313149430777e-71,
+      "neg_rate_pearson_r": -0.3950252616729704
+    },
+    "location": {
+      "label": "Location",
+      "subscore": "review_scores_location",
+      "n": 1828,
+      "pearson_r": 0.4075736609203036,
+      "spearman_rho": 0.3938686816882207,
+      "p_value": 4.2564967341226175e-74,
+      "neg_rate_pearson_r": -0.184253410522267
+    },
+    "host_communication": {
+      "label": "Host communication",
+      "subscore": "review_scores_communication",
+      "n": 1826,
+      "pearson_r": 0.2439523492172806,
+      "spearman_rho": 0.22157451171812675,
+      "p_value": 3.786509225500779e-26,
+      "neg_rate_pearson_r": -0.18770700573852617
+    },
+    "checkin": {
+      "label": "Check-in / arrival",
+      "subscore": "review_scores_checkin",
+      "n": 1690,
+      "pearson_r": 0.17293836909661156,
+      "spearman_rho": 0.159863164317116,
+      "p_value": 8.176303933900825e-13,
+      "neg_rate_pearson_r": -0.1779271954458739
+    },
+    "value": {
+      "label": "Value for money",
+      "subscore": "review_scores_value",
+      "n": 1013,
+      "pearson_r": 0.1737782317441042,
+      "spearman_rho": 0.17101730102760831,
+      "p_value": 2.598601239367869e-08,
+      "neg_rate_pearson_r": -0.09679415548544926
+    },
+    "accuracy": {
+      "label": "Accuracy vs listing",
+      "subscore": "review_scores_accuracy",
+      "n": 1600,
+      "pearson_r": 0.1919537425290368,
+      "spearman_rho": 0.1880871499737702,
+      "p_value": 9.61312365172101e-15,
+      "neg_rate_pearson_r": -0.17977594107035366
+    },
+    "noise": {
+      "label": "Noise / disturbance",
+      "subscore": "",
+      "n": 0,
+      "pearson_r": NaN,
+      "spearman_rho": NaN,
+      "p_value": NaN,
+      "neg_rate_pearson_r": NaN
+    },
+    "space_comfort": {
+      "label": "Space / comfort",
+      "subscore": "",
+      "n": 0,
+      "pearson_r": NaN,
+      "spearman_rho": NaN,
+      "p_value": NaN,
+      "neg_rate_pearson_r": NaN
+    }
+  },
+  "validation_mean_pearson": 0.2654991979150885,
+  "validation_mean_spearman": 0.23223559380597922,
+  "validation_best_aspect_by_spearman": "location",
+  "validation_best_pearson": 0.4075736609203036,
+  "validation_best_spearman": 0.3938686816882207,
+  "validation_worst_aspect_by_spearman": "checkin",
+  "validation_worst_pearson": 0.17293836909661156,
+  "validation_worst_spearman": 0.159863164317116,
+  "validation_max_pearson": 0.4075736609203036,
+  "validation_neg_rate_pearson": {
+    "cleanliness": -0.3950252616729704,
+    "location": -0.184253410522267,
+    "host_communication": -0.18770700573852617,
+    "checkin": -0.1779271954458739,
+    "value": -0.09679415548544926,
+    "accuracy": -0.17977594107035366,
+    "noise": null,
+    "space_comfort": null
+  },
+  "lexicon_mining_method": "tfidf-fallback",
+  "lexicon_terms": {
+    "cleanliness": 41,
+    "location": 65,
+    "host_communication": 33,
+    "checkin": 36,
+    "value": 31,
+    "accuracy": 25,
+    "noise": 37,
+    "space_comfort": 63
+  },
+  "lexicon_terms_total": 331,
+  "lexicon_audit_terms_checked": 150,
+  "lexicon_audit_terms_specific": 127,
+  "lexicon_audit_covered_share": 0.3543307086614173,
+  "lexicon_audit_covered_by_frequency": 0.37951727251002365,
+  "lexicon_audit_top_uncovered": [
+    "great",
+    "seattle",
+    "nice",
+    "easy",
+    "perfect",
+    "really",
+    "recommend",
+    "definitely",
+    "just",
+    "wonderful",
+    "close",
+    "staying",
+    "good",
+    "needed",
+    "like"
+  ]
+}

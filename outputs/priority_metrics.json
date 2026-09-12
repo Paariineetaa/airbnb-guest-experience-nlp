@@ -1,0 +1,120 @@
+{
+  "importance_cut": 0.2632065498648447,
+  "performance_cut": 0.010157795685952806,
+  "quadrants": {
+    "cleanliness": {
+      "label": "Cleanliness",
+      "quadrant": "Maintain",
+      "action": "Matters and is already working - protect it, do not fund it",
+      "evidence": "clear",
+      "importance": 0.6797415499654408,
+      "complaint_rate": 0.00542875066351397,
+      "complaint_per_mention": 0.014324823327178965,
+      "mention_rate": 0.3789750518747286,
+      "rating_points_available": 0.35195003990829155
+    },
+    "location": {
+      "label": "Location",
+      "quadrant": "Fix first",
+      "action": "Matters, and currently goes wrong most often",
+      "evidence": "clear",
+      "importance": 0.2755301796065191,
+      "complaint_rate": 0.016081165854364716,
+      "complaint_per_mention": 0.02049318943516896,
+      "mention_rate": 0.7847078125753993,
+      "rating_points_available": 0.1929389858743777
+    },
+    "host_communication": {
+      "label": "Host communication",
+      "quadrant": "Maintain",
+      "action": "Matters and is already working - protect it, do not fund it",
+      "evidence": "clear",
+      "importance": 0.4031940474623551,
+      "complaint_rate": 0.008251701008541236,
+      "complaint_per_mention": 0.013272790778903249,
+      "mention_rate": 0.6217005259856199,
+      "rating_points_available": 0.26101785827836765
+    },
+    "checkin": {
+      "label": "Check-in / arrival",
+      "quadrant": "Low priority",
+      "action": "Goes wrong, but moving it barely moves the rating",
+      "evidence": "clear",
+      "importance": 0.19847413266862818,
+      "complaint_rate": 0.012063890363364378,
+      "complaint_per_mention": 0.04964503797845406,
+      "mention_rate": 0.24300294358924865,
+      "rating_points_available": 0.12001422141886364
+    },
+    "value": {
+      "label": "Value for money",
+      "quadrant": "Possible over-investment",
+      "action": "Evidence inconclusive: the importance interval crosses zero",
+      "evidence": "inconclusive",
+      "importance": 0.137384383341601,
+      "complaint_rate": 0.005139217294793225,
+      "complaint_per_mention": 0.06908855011352578,
+      "mention_rate": 0.07438594798050475,
+      "rating_points_available": 0.08530085221121662
+    },
+    "accuracy": {
+      "label": "Accuracy vs listing",
+      "quadrant": "Possible over-investment",
+      "action": "Already excellent, and improving it further buys little",
+      "evidence": "clear",
+      "importance": 0.21481048673067996,
+      "complaint_rate": 0.006249095208222748,
+      "complaint_per_mention": 0.034990543096460415,
+      "mention_rate": 0.17859383293924624,
+      "rating_points_available": 0.1276803771921689
+    },
+    "noise": {
+      "label": "Noise / disturbance",
+      "quadrant": "Low priority",
+      "action": "Goes wrong, but moving it barely moves the rating",
+      "evidence": "clear",
+      "importance": 0.25088292012317026,
+      "complaint_rate": 0.014923032379481737,
+      "complaint_per_mention": 0.06168960702174347,
+      "mention_rate": 0.24190512956618251,
+      "rating_points_available": 0.17865535807949232
+    },
+    "space_comfort": {
+      "label": "Space / comfort",
+      "quadrant": "Fix first",
+      "action": "Matters, and currently goes wrong most often",
+      "evidence": "clear",
+      "importance": 0.9240746202417539,
+      "complaint_rate": 0.013475365535878008,
+      "complaint_per_mention": 0.01975138365780772,
+      "mention_rate": 0.6822491917193456,
+      "rating_points_available": 0.5765075310998492
+    }
+  },
+  "fix_first": [
+    "Location",
+    "Space / comfort"
+  ],
+  "fix_first_clear_evidence": [
+    "Location",
+    "Space / comfort"
+  ],
+  "maintain": [
+    "Cleanliness",
+    "Host communication"
+  ],
+  "low_priority": [
+    "Check-in / arrival",
+    "Noise / disturbance"
+  ],
+  "over_investment": [
+    "Value for money",
+    "Accuracy vs listing"
+  ],
+  "total_rating_points_available": 1.8940652240626277,
+  "largest_single_prize_aspect": "Space / comfort",
+  "largest_single_prize_points": 0.5765075310998492,
+  "inconclusive_aspects": [
+    "Value for money"
+  ]
+}

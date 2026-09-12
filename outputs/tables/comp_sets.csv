@@ -1,0 +1,113 @@
+neighbourhood_group_cleansed,room_type,accommodates_band,listings,median_price,usable
+Other neighborhoods,Private room,1-2,129,64.0,129
+Downtown,Entire home/apt,3-4,121,139.0,121
+Other neighborhoods,Entire home/apt,3-4,100,107.0,100
+Central Area,Private room,1-2,76,69.0,76
+Capitol Hill,Entire home/apt,1-2,70,110.0,70
+Capitol Hill,Private room,1-2,66,80.0,66
+Other neighborhoods,Entire home/apt,1-2,63,100.0,63
+Capitol Hill,Entire home/apt,3-4,59,126.0,59
+Downtown,Entire home/apt,1-2,58,125.0,58
+Downtown,Entire home/apt,5-6,54,162.5,54
+Queen Anne,Entire home/apt,3-4,51,125.0,51
+Rainier Valley,Private room,1-2,46,60.0,46
+Other neighborhoods,Entire home/apt,5-6,45,135.0,45
+Ballard,Private room,1-2,38,65.0,38
+Central Area,Entire home/apt,3-4,38,120.0,38
+Central Area,Entire home/apt,1-2,33,95.0,33
+Queen Anne,Entire home/apt,1-2,31,110.0,31
+Queen Anne,Private room,1-2,31,85.0,31
+Beacon Hill,Private room,1-2,28,57.5,28
+Ballard,Entire home/apt,1-2,28,96.5,28
+West Seattle,Private room,1-2,27,75.0,27
+Central Area,Entire home/apt,5-6,25,160.0,25
+Downtown,Private room,1-2,24,92.5,24
+Ballard,Entire home/apt,3-4,24,102.0,24
+West Seattle,Entire home/apt,3-4,23,119.0,23
+Other neighborhoods,Private room,3-4,23,69.0,23
+West Seattle,Entire home/apt,1-2,18,99.5,18
+Ballard,Entire home/apt,5-6,17,180.0,17
+Capitol Hill,Shared room,1-2,17,30.0,17
+Capitol Hill,Entire home/apt,7+,17,350.0,17
+Capitol Hill,Entire home/apt,5-6,16,206.5,16
+Rainier Valley,Entire home/apt,1-2,16,95.0,16
+Other neighborhoods,Entire home/apt,7+,16,264.5,16
+University District,Entire home/apt,3-4,15,95.0,15
+University District,Private room,1-2,14,46.0,14
+Delridge,Private room,1-2,14,55.0,14
+Beacon Hill,Entire home/apt,1-2,13,85.0,13
+Delridge,Entire home/apt,3-4,12,87.5,12
+Magnolia,Private room,1-2,12,70.0,12
+Lake City,Private room,1-2,12,54.5,12
+Seward Park,Private room,1-2,11,41.0,11
+Rainier Valley,Entire home/apt,3-4,11,95.0,11
+Beacon Hill,Entire home/apt,3-4,11,90.0,11
+Northgate,Private room,1-2,10,60.0,10
+Cascade,Entire home/apt,3-4,10,130.0,10
+Ballard,Entire home/apt,7+,10,306.5,10
+Queen Anne,Entire home/apt,5-6,10,267.5,10
+Cascade,Entire home/apt,1-2,9,115.0,9
+West Seattle,Entire home/apt,7+,9,200.0,9
+Northgate,Entire home/apt,3-4,9,95.0,9
+West Seattle,Entire home/apt,5-6,8,137.0,8
+Downtown,Shared room,1-2,8,45.0,8
+Central Area,Private room,3-4,8,69.0,8
+Ballard,Private room,3-4,8,87.5,8
+Cascade,Private room,1-2,7,59.0,7
+Beacon Hill,Entire home/apt,5-6,7,112.0,7
+Queen Anne,Entire home/apt,7+,7,461.0,7
+Delridge,Entire home/apt,1-2,6,65.0,6
+Northgate,Entire home/apt,1-2,6,95.0,0
+University District,Entire home/apt,1-2,6,85.0,6
+Lake City,Entire home/apt,1-2,6,88.0,6
+Beacon Hill,Entire home/apt,7+,5,175.0,0
+Capitol Hill,Private room,3-4,5,80.0,5
+Central Area,Entire home/apt,7+,5,300.0,5
+Rainier Valley,Private room,3-4,5,65.0,5
+Rainier Valley,Entire home/apt,5-6,5,115.0,5
+Lake City,Entire home/apt,3-4,5,119.0,5
+Rainier Valley,Entire home/apt,7+,5,169.0,5
+Delridge,Entire home/apt,5-6,5,129.0,0
+Magnolia,Entire home/apt,7+,4,331.5,4
+West Seattle,Private room,3-4,4,70.5,0
+Seward Park,Entire home/apt,3-4,4,102.5,0
+Seward Park,Entire home/apt,1-2,4,100.0,0
+Northgate,Entire home/apt,5-6,4,122.5,4
+Northgate,Private room,3-4,4,69.5,0
+Beacon Hill,Private room,3-4,4,77.0,0
+Lake City,Entire home/apt,7+,3,250.0,0
+Downtown,Entire home/apt,7+,3,200.0,3
+Delridge,Private room,3-4,3,49.0,0
+Seward Park,Private room,3-4,3,75.0,0
+Seward Park,Entire home/apt,7+,3,150.0,0
+Magnolia,Entire home/apt,3-4,3,150.0,3
+Magnolia,Entire home/apt,1-2,3,125.0,0
+Magnolia,Entire home/apt,5-6,3,225.0,3
+Interbay,Private room,1-2,3,75.0,0
+West Seattle,Private room,5-6,2,75.0,0
+Interbay,Entire home/apt,3-4,2,150.0,0
+Northgate,Shared room,1-2,2,36.0,0
+Beacon Hill,Shared room,1-2,2,42.5,0
+University District,Private room,3-4,2,52.5,0
+University District,Entire home/apt,7+,2,262.5,0
+Queen Anne,Private room,3-4,2,80.0,0
+Northgate,Entire home/apt,7+,2,167.5,0
+Other neighborhoods,Shared room,1-2,2,50.0,2
+Cascade,Private room,3-4,1,122.0,0
+Cascade,Entire home/apt,7+,1,300.0,0
+Downtown,Shared room,5-6,1,65.0,0
+Downtown,Private room,5-6,1,149.0,0
+Central Area,Shared room,3-4,1,60.0,0
+Central Area,Shared room,1-2,1,79.0,0
+Cascade,Entire home/apt,5-6,1,115.0,0
+Capitol Hill,Private room,5-6,1,84.0,0
+Lake City,Entire home/apt,5-6,1,240.0,0
+Magnolia,Shared room,1-2,1,30.0,0
+Other neighborhoods,Private room,5-6,1,80.0,0
+Downtown,Shared room,7+,1,38.0,0
+Lake City,Private room,3-4,1,62.0,0
+Rainier Valley,Private room,5-6,1,70.0,0
+Seward Park,Entire home/apt,5-6,1,188.0,0
+University District,Entire home/apt,5-6,1,125.0,1
+University District,Shared room,1-2,1,59.0,1
+West Seattle,Private room,7+,1,81.0,0

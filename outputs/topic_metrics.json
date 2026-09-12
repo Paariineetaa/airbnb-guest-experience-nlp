@@ -1,0 +1,185 @@
+{
+  "n_topics": 10,
+  "low_band_cut": 93.0,
+  "high_band_cut": 98.0,
+  "low_band_listings": 497,
+  "high_band_listings": 522,
+  "low_band_reviews": 19143,
+  "high_band_reviews": 19648,
+  "vocabulary": 3830,
+  "names_stoplisted": 11807,
+  "topics": [
+    {
+      "topic": "Capitol Hill and the nightlife",
+      "terms": "hill, capitol, capitol hill, location capitol, downtown, capital, capital hill, bars",
+      "prevalence_lower_band": 0.041895520838260786,
+      "prevalence_upper_band": 0.02958345485043681,
+      "lift_lower_vs_upper": 1.4161808027517173
+    },
+    {
+      "topic": "Easy check-in and access",
+      "terms": "easy, check, access, easy access, location easy, easy check, check check, described",
+      "prevalence_lower_band": 0.10721653826526864,
+      "prevalence_upper_band": 0.08027389948203663,
+      "lift_lower_vs_upper": 1.3356338605334743
+    },
+    {
+      "topic": "The apartment and its condition",
+      "terms": "apartment, apartment clean, helpful, apartment location, accommodating, located, experience, view",
+      "prevalence_lower_band": 0.12061257189089447,
+      "prevalence_upper_band": 0.09392754547884542,
+      "lift_lower_vs_upper": 1.2841022436603446
+    },
+    {
+      "topic": "The room, the bed and the bathroom",
+      "terms": "room, friendly, room clean, helpful, bathroom, bed, private, welcoming",
+      "prevalence_lower_band": 0.12607003116940058,
+      "prevalence_upper_band": 0.10123076900221298,
+      "lift_lower_vs_upper": 1.2453726511417156
+    },
+    {
+      "topic": "Neighbourhood, transit and errands",
+      "terms": "downtown, space, walk, close, it's, area, bus, kitchen",
+      "prevalence_lower_band": 0.18482347911593347,
+      "prevalence_upper_band": 0.16461062418175704,
+      "lift_lower_vs_upper": 1.1227919220563682
+    },
+    {
+      "topic": "Walking distance to bars and restaurants",
+      "terms": "walking, distance, walking distance, restaurants, location walking, bars, shops, distance restaurants",
+      "prevalence_lower_band": 0.05612052893178091,
+      "prevalence_upper_band": 0.054927868353315236,
+      "lift_lower_vs_upper": 1.0217132143340073
+    },
+    {
+      "topic": "The house, the garden and the space",
+      "terms": "house, house clean, beautiful, house location, house beautiful, beautiful house, house perfect, enjoyed",
+      "prevalence_lower_band": 0.08593117591680026,
+      "prevalence_upper_band": 0.08682828010495605,
+      "lift_lower_vs_upper": 0.9896680645168672
+    },
+    {
+      "topic": "A quiet, safe street",
+      "terms": "neighborhood, quiet, quiet neighborhood, neighborhood quiet, clean quiet, close, safe, lovely",
+      "prevalence_lower_band": 0.09595373431871024,
+      "prevalence_upper_band": 0.11264566178917615,
+      "lift_lower_vs_upper": 0.8518191716809657
+    },
+    {
+      "topic": "Perfect - nothing to add",
+      "terms": "perfect, perfect location, location perfect, apartment perfect, cottage, loved, needed, house perfect",
+      "prevalence_lower_band": 0.06644244158817816,
+      "prevalence_upper_band": 0.0851936739945832,
+      "lift_lower_vs_upper": 0.7798987703289181
+    },
+    {
+      "topic": "Feeling at home and made welcome",
+      "terms": "home, wonderful, feel, experience, welcome, beautiful, felt, lovely",
+      "prevalence_lower_band": 0.11153848091624305,
+      "prevalence_upper_band": 0.18853880908190038,
+      "lift_lower_vs_upper": 0.5915942794981337
+    }
+  ],
+  "topics_low_band_only": [
+    {
+      "topic": "Neighbourhood, transit and errands",
+      "terms": "downtown, close, walk, space, it's, bus, neighborhood, street, parking, area, quiet, away",
+      "prevalence": 0.18625964899229125
+    },
+    {
+      "topic": "The apartment and its condition",
+      "terms": "apartment, apartment clean, apartment location, located, location apartment, view, comfortable, needed, building, responsive, apartment perfect, accommodating",
+      "prevalence": 0.11329865747244448
+    },
+    {
+      "topic": "Walking distance to bars and restaurants",
+      "terms": "walking, distance, walking distance, restaurants, location walking, bars, shops, distance downtown, easy walking, market, distance restaurants, restaurants walking",
+      "prevalence": 0.057669205882568686
+    },
+    {
+      "topic": "The house, the garden and the space",
+      "terms": "house, house clean, house location, neighborhood, beautiful, quiet, enjoyed, people, house perfect, located, group, lovely",
+      "prevalence": 0.09325240180557176
+    },
+    {
+      "topic": "Feeling at home and made welcome",
+      "terms": "home, experience, wonderful, feel, welcome, lovely, felt, beautiful, neighborhood, feel home, feel welcome, cozy",
+      "prevalence": 0.13479169510204642
+    },
+    {
+      "topic": "Easy check-in and access",
+      "terms": "easy, check, access, easy access, easy check, check check, location easy, check easy, communication, communicate, easy communicate, process",
+      "prevalence": 0.09369164070749823
+    },
+    {
+      "topic": "Host responsiveness and helpfulness",
+      "terms": "friendly, helpful, friendly helpful, accommodating, welcoming, friendly accommodating, extremely, helpful friendly, responsive, neighborhood, convenient, dog",
+      "prevalence": 0.08869839209598694
+    },
+    {
+      "topic": "Perfect - nothing to add",
+      "terms": "perfect, perfect location, location perfect, apartment perfect, needed, loved, house perfect, perfect needs, space, needs, absolutely, spot",
+      "prevalence": 0.06395731937998328
+    },
+    {
+      "topic": "Capitol Hill and the nightlife",
+      "terms": "hill, capitol, capitol hill, location capitol, bars, capital, capital hill, downtown capitol, walk, downtown, hill area, restaurants",
+      "prevalence": 0.04006129521119116
+    },
+    {
+      "topic": "The room, the bed and the bathroom",
+      "terms": "room, comfortable, bed, clean comfortable, room clean, bed comfortable, bathroom, private, comfortable bed, room comfortable, convenient, comfortable room",
+      "prevalence": 0.1246108158051007
+    }
+  ],
+  "most_over_indexed_topic_lower_band": "Capitol Hill and the nightlife",
+  "most_over_indexed_lift_lower_band": 1.4161808027517173,
+  "most_over_indexed_topic_upper_band": "Feeling at home and made welcome",
+  "most_over_indexed_lift_upper_band": 1.6903476498257024,
+  "terms_over_used_lower_band": [
+    "apartment",
+    "building",
+    "check",
+    "location",
+    "noise",
+    "room",
+    "price",
+    "didn't",
+    "overall",
+    "wasn't",
+    "loud",
+    "people",
+    "fine",
+    "sleep",
+    "pretty",
+    "wifi",
+    "noisy",
+    "issue",
+    "issues",
+    "problem"
+  ],
+  "terms_over_used_upper_band": [
+    "cottage",
+    "beautiful",
+    "home",
+    "wonderful",
+    "studio",
+    "loved",
+    "lovely",
+    "amazing",
+    "fresh",
+    "welcome",
+    "decorated",
+    "beautifully",
+    "absolutely",
+    "wine",
+    "coffee",
+    "appointed",
+    "garden",
+    "touches",
+    "fruit",
+    "snacks"
+  ],
+  "max_z_lower_band": 19.483215287215756,
+  "max_z_upper_band": 25.555362806799092
+}

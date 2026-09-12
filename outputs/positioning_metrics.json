@@ -1,0 +1,358 @@
+{
+  "areas_reported": 16,
+  "areas_excluded_small_n": 1,
+  "min_listings_per_area": 25,
+  "stability": {
+    "neighbourhood_group": {
+      "units": 17,
+      "units_above_min": 16,
+      "median_listings": 70.0,
+      "min_listings": 5,
+      "median_standard_error": 0.011659218883856964
+    },
+    "neighbourhood": {
+      "units": 85,
+      "units_above_min": 23,
+      "median_listings": 12.0,
+      "min_listings": 1,
+      "median_standard_error": 0.023297894844325165
+    },
+    "se_ratio_fine_over_coarse": 1.9982380532012134
+  },
+  "cells": 128,
+  "cells_beyond_two_se": 37,
+  "cells_beyond_two_se_share": 0.2890625,
+  "strongest_area_overall": "Ballard",
+  "weakest_area_overall": "University District",
+  "weakest_area_attributes_below": 6,
+  "attributes_below_city_by_area": {
+    "Other neighborhoods": 0,
+    "Ballard": 0,
+    "West Seattle": 0,
+    "Central Area": 0,
+    "Queen Anne": 0,
+    "Seward Park": 0,
+    "Northgate": 1,
+    "Cascade": 0,
+    "Capitol Hill": 0,
+    "Rainier Valley": 1,
+    "Delridge": 1,
+    "Magnolia": 0,
+    "Beacon Hill": 1,
+    "Lake City": 2,
+    "Downtown": 5,
+    "University District": 6
+  },
+  "attributes_above_city_by_area": {
+    "Other neighborhoods": 6,
+    "Ballard": 3,
+    "West Seattle": 3,
+    "Central Area": 2,
+    "Queen Anne": 2,
+    "Seward Park": 0,
+    "Northgate": 1,
+    "Cascade": 0,
+    "Capitol Hill": 1,
+    "Rainier Valley": 1,
+    "Delridge": 1,
+    "Magnolia": 0,
+    "Beacon Hill": 0,
+    "Lake City": 0,
+    "Downtown": 0,
+    "University District": 0
+  },
+  "strongest_areas_excluding_catch_all": [
+    "Ballard",
+    "West Seattle",
+    "Central Area"
+  ],
+  "weakest_areas_excluding_catch_all": [
+    "University District",
+    "Downtown",
+    "Lake City"
+  ],
+  "catch_all_areas_excluded_from_claims": [
+    "Other neighborhoods"
+  ],
+  "largest_gap_area": "University District",
+  "largest_gap_aspect": "Location",
+  "largest_gap_sd": -0.8599237108116992,
+  "area_mean_z": {
+    "Other neighborhoods": 0.15568458818500608,
+    "Ballard": 0.11971535408297138,
+    "West Seattle": 0.11165240409887577,
+    "Central Area": 0.07017539994707685,
+    "Queen Anne": 0.05222378813252035,
+    "Seward Park": 0.03490919300809635,
+    "Northgate": 0.032458333154520375,
+    "Cascade": 0.03086791148916995,
+    "Capitol Hill": 0.028016677106046915,
+    "Rainier Valley": -0.006470390293299565,
+    "Delridge": -0.008264295748990099,
+    "Magnolia": -0.062271799801309737,
+    "Beacon Hill": -0.15717070678604278,
+    "Lake City": -0.17912223963385854,
+    "Downtown": -0.28652269560557736,
+    "University District": -0.49336860070905936
+  },
+  "area_table": {
+    "Other neighborhoods": {
+      "listings": 379,
+      "median_price": 93.0,
+      "mean_rating": 94.87071240105541,
+      "mean_price_premium": 0.002654511590002569
+    },
+    "Ballard": {
+      "listings": 125,
+      "median_price": 92.0,
+      "mean_rating": 95.424,
+      "mean_price_premium": 0.014277480716970487
+    },
+    "West Seattle": {
+      "listings": 92,
+      "median_price": 94.0,
+      "mean_rating": 95.80434782608695,
+      "mean_price_premium": -0.08266838389990294
+    },
+    "Central Area": {
+      "listings": 187,
+      "median_price": 90.0,
+      "mean_rating": 95.27272727272727,
+      "mean_price_premium": -0.018398911782192266
+    },
+    "Queen Anne": {
+      "listings": 132,
+      "median_price": 110.0,
+      "mean_rating": 95.46969696969697,
+      "mean_price_premium": 0.013598740734034625
+    },
+    "Seward Park": {
+      "listings": 26,
+      "median_price": 75.0,
+      "mean_rating": 95.42307692307692,
+      "mean_price_premium": 0.0012139933675739652
+    },
+    "Northgate": {
+      "listings": 37,
+      "median_price": 80.0,
+      "mean_rating": 95.86486486486487,
+      "mean_price_premium": 0.03873420051371836
+    },
+    "Cascade": {
+      "listings": 29,
+      "median_price": 115.0,
+      "mean_rating": 94.58620689655173,
+      "mean_price_premium": 0.03826198884392078
+    },
+    "Capitol Hill": {
+      "listings": 251,
+      "median_price": 110.0,
+      "mean_rating": 94.57768924302789,
+      "mean_price_premium": 0.023629248037902995
+    },
+    "Rainier Valley": {
+      "listings": 89,
+      "median_price": 70.0,
+      "mean_rating": 95.23595505617978,
+      "mean_price_premium": -0.055458129590285114
+    },
+    "Delridge": {
+      "listings": 40,
+      "median_price": 69.5,
+      "mean_rating": 95.9,
+      "mean_price_premium": -0.07257183593841122
+    },
+    "Magnolia": {
+      "listings": 26,
+      "median_price": 104.5,
+      "mean_rating": 94.15384615384616,
+      "mean_price_premium": -0.023131425574115575
+    },
+    "Beacon Hill": {
+      "listings": 70,
+      "median_price": 75.0,
+      "mean_rating": 94.32857142857142,
+      "mean_price_premium": -0.06547223536726884
+    },
+    "Lake City": {
+      "listings": 28,
+      "median_price": 66.5,
+      "mean_rating": 94.64285714285714,
+      "mean_price_premium": -0.03797637907365352
+    },
+    "Downtown": {
+      "listings": 271,
+      "median_price": 135.0,
+      "mean_rating": 94.43173431734317,
+      "mean_price_premium": -0.02567785475512956
+    },
+    "University District": {
+      "listings": 41,
+      "median_price": 83.0,
+      "mean_rating": 90.60975609756098,
+      "mean_price_premium": 0.042101701704378734
+    }
+  },
+  "aspect_z_by_area": {
+    "Other neighborhoods": {
+      "Cleanliness": 0.17003889898464994,
+      "Location": 0.15453938008350065,
+      "Host communication": 0.14802915333771458,
+      "Check-in / arrival": 0.08643795398607323,
+      "Value for money": 0.2542763077717474,
+      "Accuracy vs listing": 0.06498668969047965,
+      "Noise / disturbance": 0.18253022365697974,
+      "Space / comfort": 0.1846380979689035
+    },
+    "Ballard": {
+      "Cleanliness": 0.14377726094067525,
+      "Location": 0.20777806925617054,
+      "Host communication": 0.02943087799092806,
+      "Check-in / arrival": -0.01115022247313641,
+      "Value for money": 0.10052171686987785,
+      "Accuracy vs listing": 0.08340721191865667,
+      "Noise / disturbance": 0.16704208243688537,
+      "Space / comfort": 0.23691583572371364
+    },
+    "West Seattle": {
+      "Cleanliness": -0.06284831022715119,
+      "Location": -0.010264970871939949,
+      "Host communication": 0.24670965239062964,
+      "Check-in / arrival": 0.2416904176296958,
+      "Value for money": -0.04123147103545594,
+      "Accuracy vs listing": 0.14654148972268038,
+      "Noise / disturbance": 0.32788283779028526,
+      "Space / comfort": 0.0447395873922621
+    },
+    "Central Area": {
+      "Cleanliness": -0.05110386861702276,
+      "Location": -0.07274716399539916,
+      "Host communication": 0.1542109295356408,
+      "Check-in / arrival": 0.06158790756559621,
+      "Value for money": 0.13060056541595536,
+      "Accuracy vs listing": 0.07672807195492773,
+      "Noise / disturbance": 0.1690488264985525,
+      "Space / comfort": 0.09307793121836413
+    },
+    "Queen Anne": {
+      "Cleanliness": 0.0411105902561724,
+      "Location": 0.213960756364278,
+      "Host communication": -0.11036750969413497,
+      "Check-in / arrival": 0.0719779806349991,
+      "Value for money": -0.11330997569976724,
+      "Accuracy vs listing": 0.17385538068822506,
+      "Noise / disturbance": 0.1656655303494489,
+      "Space / comfort": -0.025102447839058482
+    },
+    "Seward Park": {
+      "Cleanliness": 0.16184333727788291,
+      "Location": 0.02370509124148833,
+      "Host communication": 0.10612535659713022,
+      "Check-in / arrival": -0.018167784367958486,
+      "Value for money": -0.1611148224497861,
+      "Accuracy vs listing": -0.027871540778734223,
+      "Noise / disturbance": 0.12439597987818651,
+      "Space / comfort": 0.07035792666656154
+    },
+    "Northgate": {
+      "Cleanliness": 0.061344359528489004,
+      "Location": -0.4033381493609307,
+      "Host communication": 0.2700616099413128,
+      "Check-in / arrival": 0.1659687753331081,
+      "Value for money": -0.03663612489527547,
+      "Accuracy vs listing": -0.215571892630298,
+      "Noise / disturbance": 0.3739019365373242,
+      "Space / comfort": 0.043936150782433146
+    },
+    "Cascade": {
+      "Cleanliness": 0.06667429733393972,
+      "Location": 0.3152235667998082,
+      "Host communication": -0.07225988735780457,
+      "Check-in / arrival": 0.023079368494255664,
+      "Value for money": -0.44771465598639737,
+      "Accuracy vs listing": 0.26316413635115493,
+      "Noise / disturbance": -0.13347829922450605,
+      "Space / comfort": 0.2322547655029091
+    },
+    "Capitol Hill": {
+      "Cleanliness": -0.10426331215959174,
+      "Location": 0.35733194994797407,
+      "Host communication": 0.009757353991668447,
+      "Check-in / arrival": 0.0636806303218263,
+      "Value for money": -0.10397558330016042,
+      "Accuracy vs listing": -0.021564059173165995,
+      "Noise / disturbance": 0.010037781920989506,
+      "Space / comfort": 0.013128655298835178
+    },
+    "Rainier Valley": {
+      "Cleanliness": -0.01555621784411609,
+      "Location": -0.4757652134891629,
+      "Host communication": 0.1690518537348367,
+      "Check-in / arrival": -0.1498094928296031,
+      "Value for money": 0.2570892173476257,
+      "Accuracy vs listing": 0.0037663968652576034,
+      "Noise / disturbance": 0.01276783963398761,
+      "Space / comfort": 0.146692494234778
+    },
+    "Delridge": {
+      "Cleanliness": 0.22242795571661117,
+      "Location": -0.7658917377263635,
+      "Host communication": 0.16002371529634865,
+      "Check-in / arrival": 0.15935880568760188,
+      "Value for money": 0.22589011679591534,
+      "Accuracy vs listing": -0.21888539778846505,
+      "Noise / disturbance": 0.03915455347308438,
+      "Space / comfort": 0.11180762255334635
+    },
+    "Magnolia": {
+      "Cleanliness": 0.030064714568992193,
+      "Location": -0.1471016013853979,
+      "Host communication": 0.13014897345887866,
+      "Check-in / arrival": 0.05322615257537018,
+      "Value for money": -0.23713177391347232,
+      "Accuracy vs listing": -0.28547503814748104,
+      "Noise / disturbance": 0.3128655922212078,
+      "Space / comfort": -0.35477141778857546
+    },
+    "Beacon Hill": {
+      "Cleanliness": -0.03378280767701355,
+      "Location": -0.7208161215019885,
+      "Host communication": -0.16353902856608926,
+      "Check-in / arrival": -0.07332920392384905,
+      "Value for money": 0.11845560404878072,
+      "Accuracy vs listing": -0.09711498032291342,
+      "Noise / disturbance": -0.16222684280373595,
+      "Space / comfort": -0.12501227354153338
+    },
+    "Lake City": {
+      "Cleanliness": -0.28755753947498136,
+      "Location": -0.4999235447351701,
+      "Host communication": 0.14346420829210227,
+      "Check-in / arrival": -0.5360575817412644,
+      "Value for money": -0.023599092895824167,
+      "Accuracy vs listing": -0.4364346155536815,
+      "Noise / disturbance": 0.2060884698432902,
+      "Space / comfort": 0.0010417791946606986
+    },
+    "Downtown": {
+      "Cleanliness": -0.09283531697936233,
+      "Location": -0.02305075732413634,
+      "Host communication": -0.38245265354136776,
+      "Check-in / arrival": -0.18983202791877207,
+      "Value for money": -0.3920674955991734,
+      "Accuracy vs listing": -0.13149329474209973,
+      "Noise / disturbance": -0.7200374369519086,
+      "Space / comfort": -0.36041258178779845
+    },
+    "University District": {
+      "Cleanliness": -0.7021021963335391,
+      "Location": -0.8599237108116992,
+      "Host communication": -0.5729848366259024,
+      "Check-in / arrival": -0.43219573585882415,
+      "Value for money": 0.24770815384510722,
+      "Accuracy vs listing": -0.20698530343009583,
+      "Noise / disturbance": -0.6107964924991302,
+      "Space / comfort": -0.8096686839583914
+    }
+  }
+}

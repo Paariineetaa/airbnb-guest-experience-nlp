@@ -1,0 +1,17 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+lightgbm>=4.6
+scipy>=1.10
+statsmodels>=0.14
+matplotlib>=3.7
+pyarrow>=12.0
+vaderSentiment>=3.3
+pytest>=7.4
+
+# Optional. aspects.py uses spaCy to re-mine the corpus vocabulary and audit
+# the frozen aspect lexicon; without it that step falls back to a scikit-learn
+# term-frequency pass and records which method it used. Nothing else in the
+# pipeline depends on it.
+spacy>=3.7
+# python -m spacy download en_core_web_sm

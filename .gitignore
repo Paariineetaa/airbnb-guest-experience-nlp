@@ -1,0 +1,18 @@
+# raw data is downloaded, never committed
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/PUT_RAW_DATA_HERE.md
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/GENERATED_FILES_GO_HERE.md
+
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# offline package cache - see OFFLINE-SETUP.md
+wheelhouse/

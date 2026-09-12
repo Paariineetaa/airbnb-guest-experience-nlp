@@ -1,0 +1,677 @@
+{
+  "min_reviews_for_model": 10,
+  "listings_in_frame": 1828,
+  "rating": {
+    "name": "rating",
+    "n": 1828,
+    "alpha": 170.12542798525857,
+    "ridge_r2_controls_only": 0.08534763355385733,
+    "ridge_r2_full": 0.3959967696203196,
+    "ridge_r2_train": 0.459732080429602,
+    "ridge_r2_uplift_from_aspects": 0.3106491360664623,
+    "gbm_r2_controls_only": 0.057381720068862885,
+    "gbm_r2_full": 0.3866193316918548,
+    "gbm_r2_uplift_from_aspects": 0.3292376116229919,
+    "gbm_aspect_gain_share": 0.8715604170214721,
+    "ols_sign_agreement_on_aspects": 0.9375,
+    "ols_rank_agreement_on_aspects": 0.9647058823529412,
+    "ols_significant_aspects": 12,
+    "ridge_significant_aspects": 12,
+    "aspect_coverage": {
+      "cleanliness": 0.9797592997811816,
+      "location": 1.0,
+      "host_communication": 0.9989059080962801,
+      "checkin": 0.9245076586433261,
+      "value": 0.5541575492341356,
+      "accuracy": 0.87527352297593,
+      "noise": 0.9212253829321663,
+      "space_comfort": 1.0
+    },
+    "ridge_alpha_controls": 28.94266124716749
+  },
+  "price_premium": {
+    "name": "price_premium",
+    "n": 1742,
+    "alpha": 52.23345074266838,
+    "ridge_r2_controls_only": 0.010046634288762513,
+    "ridge_r2_full": 0.04198428136667409,
+    "ridge_r2_train": 0.16264515036812155,
+    "ridge_r2_uplift_from_aspects": 0.03193764707791158,
+    "gbm_r2_controls_only": 0.09290920749269993,
+    "gbm_r2_full": 0.06783576297788074,
+    "gbm_r2_uplift_from_aspects": -0.025073444514819188,
+    "gbm_aspect_gain_share": 0.6877278870548134,
+    "ols_sign_agreement_on_aspects": 0.9375,
+    "ols_rank_agreement_on_aspects": 0.9176470588235294,
+    "ols_significant_aspects": 7,
+    "ridge_significant_aspects": 6,
+    "aspect_coverage": {
+      "cleanliness": 0.9793340987370838,
+      "location": 1.0,
+      "host_communication": 0.9988518943742825,
+      "checkin": 0.9242250287026407,
+      "value": 0.5568312284730195,
+      "accuracy": 0.8765786452353617,
+      "noise": 0.9196326061997704,
+      "space_comfort": 1.0
+    },
+    "ridge_alpha_controls": 28.94266124716749
+  },
+  "rating_coefficients": {
+    "sent_cleanliness": {
+      "coef": 0.6797415499654408,
+      "ci_lo": 0.458980095292565,
+      "ci_hi": 0.945323589408445,
+      "significant": true,
+      "ols_coef": 0.7790577610189218,
+      "ols_p": 6.938935806193451e-12,
+      "gbm_gain_share": 0.14422458952672607
+    },
+    "talk_cleanliness": {
+      "coef": 0.21641552892268556,
+      "ci_lo": 0.05569371114048796,
+      "ci_hi": 0.3850272428177911,
+      "significant": true,
+      "ols_coef": 0.24442416483007257,
+      "ols_p": 0.0021924255733245072,
+      "gbm_gain_share": 0.01606164302743475
+    },
+    "sent_location": {
+      "coef": 0.2755301796065191,
+      "ci_lo": 0.06459459101882337,
+      "ci_hi": 0.455231086886806,
+      "significant": true,
+      "ols_coef": 0.19909600648565617,
+      "ols_p": 0.04938862770720958,
+      "gbm_gain_share": 0.026071690813725425
+    },
+    "talk_location": {
+      "coef": -0.029726464265491567,
+      "ci_lo": -0.20599620537236052,
+      "ci_hi": 0.17020642317533882,
+      "significant": false,
+      "ols_coef": -0.1693511165174999,
+      "ols_p": 0.09449194493362,
+      "gbm_gain_share": 0.005683670297524956
+    },
+    "sent_host_communication": {
+      "coef": 0.4031940474623551,
+      "ci_lo": 0.2262321214164398,
+      "ci_hi": 0.5784591825642519,
+      "significant": true,
+      "ols_coef": 0.4214009018568998,
+      "ols_p": 4.193889780387969e-05,
+      "gbm_gain_share": 0.07106163163476212
+    },
+    "talk_host_communication": {
+      "coef": 0.38181099108164335,
+      "ci_lo": 0.20999769133111387,
+      "ci_hi": 0.5483272325651353,
+      "significant": true,
+      "ols_coef": 0.3594874088668456,
+      "ols_p": 6.850194189390247e-05,
+      "gbm_gain_share": 0.029528383063954146
+    },
+    "sent_checkin": {
+      "coef": 0.19847413266862818,
+      "ci_lo": 0.015157806149511203,
+      "ci_hi": 0.3621582166410036,
+      "significant": true,
+      "ols_coef": 0.16534765506726967,
+      "ols_p": 0.08664407087878086,
+      "gbm_gain_share": 0.012169372789926103
+    },
+    "talk_checkin": {
+      "coef": -0.1229478000006318,
+      "ci_lo": -0.31241429066032295,
+      "ci_hi": 0.06638227503215222,
+      "significant": false,
+      "ols_coef": -0.21932902979225855,
+      "ols_p": 0.024189194913889996,
+      "gbm_gain_share": 0.010056016127993136
+    },
+    "sent_value": {
+      "coef": 0.137384383341601,
+      "ci_lo": -0.01345877045376896,
+      "ci_hi": 0.2726556631788579,
+      "significant": false,
+      "ols_coef": 0.17666345937098127,
+      "ols_p": 0.03280811294255461,
+      "gbm_gain_share": 0.006268856353990767
+    },
+    "talk_value": {
+      "coef": -0.5638717396767724,
+      "ci_lo": -0.7688903333957747,
+      "ci_hi": -0.3746577975789124,
+      "significant": true,
+      "ols_coef": -0.624154296039749,
+      "ols_p": 1.2395304016798908e-09,
+      "gbm_gain_share": 0.08424010201724765
+    },
+    "sent_accuracy": {
+      "coef": 0.21481048673067996,
+      "ci_lo": 0.050358013631278294,
+      "ci_hi": 0.37690456974062225,
+      "significant": true,
+      "ols_coef": 0.11790658589936442,
+      "ols_p": 0.16467527530234582,
+      "gbm_gain_share": 0.016349846225522838
+    },
+    "talk_accuracy": {
+      "coef": -0.08216202278840645,
+      "ci_lo": -0.27442291594854007,
+      "ci_hi": 0.11210502874376836,
+      "significant": false,
+      "ols_coef": 0.03548916944451008,
+      "ols_p": 0.7156065870404046,
+      "gbm_gain_share": 0.011455534103492175
+    },
+    "sent_noise": {
+      "coef": 0.25088292012317026,
+      "ci_lo": 0.09286028248217751,
+      "ci_hi": 0.439643361497399,
+      "significant": true,
+      "ols_coef": 0.23241238965818178,
+      "ols_p": 0.009327166152143575,
+      "gbm_gain_share": 0.030871553040120993
+    },
+    "talk_noise": {
+      "coef": -0.3180929434716516,
+      "ci_lo": -0.5415755305480962,
+      "ci_hi": -0.13123673801581762,
+      "significant": true,
+      "ols_coef": -0.3583205387501067,
+      "ols_p": 0.0002351027468022083,
+      "gbm_gain_share": 0.03286538909510475
+    },
+    "sent_space_comfort": {
+      "coef": 0.9240746202417539,
+      "ci_lo": 0.6956444784204312,
+      "ci_hi": 1.1080952507883637,
+      "significant": true,
+      "ols_coef": 0.9270461586775018,
+      "ols_p": 3.5637980911730754e-14,
+      "gbm_gain_share": 0.3491012975481219
+    },
+    "talk_space_comfort": {
+      "coef": 0.3715670517418492,
+      "ci_lo": 0.20437847740722762,
+      "ci_hi": 0.5577713369914808,
+      "significant": true,
+      "ols_coef": 0.4609077241499602,
+      "ols_p": 2.4366985597034587e-07,
+      "gbm_gain_share": 0.025550841355824385
+    },
+    "log_accommodates": {
+      "coef": -0.2175359244147235,
+      "ci_lo": -0.4015528096092597,
+      "ci_hi": -0.02996826994615279,
+      "significant": true,
+      "ols_coef": -0.40880212739514166,
+      "ols_p": 0.0016592250938520655,
+      "gbm_gain_share": 0.013061004506618191
+    },
+    "bedrooms": {
+      "coef": -0.1901673009316556,
+      "ci_lo": -0.3633820007639304,
+      "ci_hi": -0.0014271737179716345,
+      "significant": true,
+      "ols_coef": -0.27255058400694077,
+      "ols_p": 0.019464155179294146,
+      "gbm_gain_share": 0.0013467873079892807
+    },
+    "log_reviews": {
+      "coef": 0.04273398061929422,
+      "ci_lo": -0.09189591324920877,
+      "ci_hi": 0.19547206314186122,
+      "significant": false,
+      "ols_coef": 0.01130640401492089,
+      "ols_p": 0.8827134567600317,
+      "gbm_gain_share": 0.02071353767721479
+    },
+    "host_tenure_years": {
+      "coef": -0.08770126002912176,
+      "ci_lo": -0.24238044932911407,
+      "ci_hi": 0.07094801751575473,
+      "significant": false,
+      "ols_coef": -0.058043871188024454,
+      "ols_p": 0.489119170471644,
+      "gbm_gain_share": 0.013152417744145061
+    },
+    "n_amenities": {
+      "coef": 0.4519670356189766,
+      "ci_lo": 0.29802162274103,
+      "ci_hi": 0.5982165816235719,
+      "significant": true,
+      "ols_coef": 0.4401464180668013,
+      "ols_p": 3.513687045314233e-08,
+      "gbm_gain_share": 0.029757822424950328
+    },
+    "min_nights": {
+      "coef": 0.07972596821139338,
+      "ci_lo": -0.032734018678337064,
+      "ci_hi": 0.21326642003511445,
+      "significant": false,
+      "ols_coef": 0.11123968393566697,
+      "ols_p": 0.11571556233817885,
+      "gbm_gain_share": 0.007422546170194678
+    },
+    "room_Private room": {
+      "coef": -0.09003493499018189,
+      "ci_lo": -0.26438933119415137,
+      "ci_hi": 0.08169146449528164,
+      "significant": false,
+      "ols_coef": -0.10952012603759453,
+      "ols_p": 0.3035494984832141,
+      "gbm_gain_share": 0.0019441714341579845
+    },
+    "room_Shared room": {
+      "coef": 0.1919000118631322,
+      "ci_lo": 0.023377603714355967,
+      "ci_hi": 0.3530775191016937,
+      "significant": true,
+      "ols_coef": 0.18665686254822145,
+      "ols_p": 0.05715922935718057,
+      "gbm_gain_share": 0.0
+    },
+    "log_price": {
+      "coef": 0.5681942312517044,
+      "ci_lo": 0.37126603478523945,
+      "ci_hi": 0.764700016935659,
+      "significant": true,
+      "ols_coef": 0.9475017436673987,
+      "ols_p": 9.025561748597166e-11,
+      "gbm_gain_share": 0.033992860191203074
+    },
+    "area_Beacon Hill": {
+      "coef": 0.06121227547025851,
+      "ci_lo": -0.10747327810458142,
+      "ci_hi": 0.21254745765584218,
+      "significant": false,
+      "ols_coef": 0.0899117235346088,
+      "ols_p": 0.3015942187960273,
+      "gbm_gain_share": 0.0
+    },
+    "area_Capitol Hill": {
+      "coef": -0.11303520063312619,
+      "ci_lo": -0.26132563423742844,
+      "ci_hi": 0.0411681843931885,
+      "significant": false,
+      "ols_coef": -0.06871938037484454,
+      "ols_p": 0.5729678589335687,
+      "gbm_gain_share": 0.0006352956019304775
+    },
+    "area_Cascade": {
+      "coef": -0.050825579016095,
+      "ci_lo": -0.25941669043711124,
+      "ci_hi": 0.14872437245018374,
+      "significant": false,
+      "ols_coef": -0.06493134960022945,
+      "ols_p": 0.5365774435502806,
+      "gbm_gain_share": 0.0
+    },
+    "area_Central Area": {
+      "coef": 0.07633332258041915,
+      "ci_lo": -0.06578167127624873,
+      "ci_hi": 0.20784249500988095,
+      "significant": false,
+      "ols_coef": 0.07454431302085296,
+      "ols_p": 0.4800702343118731,
+      "gbm_gain_share": 0.0001719632760997359
+    },
+    "area_Delridge": {
+      "coef": 0.1190455626580956,
+      "ci_lo": -0.005306263580563604,
+      "ci_hi": 0.23545309951048252,
+      "significant": false,
+      "ols_coef": 0.14066531668283688,
+      "ols_p": 0.052901836863676985,
+      "gbm_gain_share": 0.0
+    },
+    "area_Downtown": {
+      "coef": 0.048696490442884544,
+      "ci_lo": -0.1219795658880125,
+      "ci_hi": 0.21637755053314583,
+      "significant": false,
+      "ols_coef": 0.05871918852005997,
+      "ols_p": 0.6818378594829458,
+      "gbm_gain_share": 0.0
+    },
+    "area_Interbay": {
+      "coef": -0.011035419627101322,
+      "ci_lo": -0.05435825389023277,
+      "ci_hi": 0.02833597277770868,
+      "significant": false,
+      "ols_coef": 0.015596294830123092,
+      "ols_p": 0.646318102902601,
+      "gbm_gain_share": 0.0
+    },
+    "area_Lake City": {
+      "coef": 0.08698296641150538,
+      "ci_lo": -0.13375136658331638,
+      "ci_hi": 0.2865391156665951,
+      "significant": false,
+      "ols_coef": 0.07030589818864041,
+      "ols_p": 0.47942170379448634,
+      "gbm_gain_share": 0.0
+    },
+    "area_Magnolia": {
+      "coef": -0.0754422890069157,
+      "ci_lo": -0.3040137027148613,
+      "ci_hi": 0.12849753631991745,
+      "significant": false,
+      "ols_coef": -0.03482366374174939,
+      "ols_p": 0.7488952643271413,
+      "gbm_gain_share": 0.0
+    },
+    "area_Northgate": {
+      "coef": 0.15222851043926836,
+      "ci_lo": 0.04160577889846737,
+      "ci_hi": 0.2808250555439917,
+      "significant": true,
+      "ols_coef": 0.13564016992558825,
+      "ols_p": 0.08613555754033832,
+      "gbm_gain_share": 0.0
+    },
+    "area_Other neighborhoods": {
+      "coef": -0.1925454948210801,
+      "ci_lo": -0.3316713023379417,
+      "ci_hi": -0.03131292599741084,
+      "significant": true,
+      "ols_coef": -0.151048106186326,
+      "ols_p": 0.2376186537380156,
+      "gbm_gain_share": 0.006241176644024265
+    },
+    "area_Queen Anne": {
+      "coef": 0.08094425545417243,
+      "ci_lo": -0.05718393109618498,
+      "ci_hi": 0.23015804950372656,
+      "significant": false,
+      "ols_coef": 0.0646465087381153,
+      "ols_p": 0.5116489391714313,
+      "gbm_gain_share": 0.0
+    },
+    "area_Rainier Valley": {
+      "coef": 0.16805227738935877,
+      "ci_lo": 0.030081710670654502,
+      "ci_hi": 0.29984540837724916,
+      "significant": true,
+      "ols_coef": 0.12203048932272204,
+      "ols_p": 0.17936803465725226,
+      "gbm_gain_share": 0.0
+    },
+    "area_Seward Park": {
+      "coef": 0.04626105110426852,
+      "ci_lo": -0.08223588362153542,
+      "ci_hi": 0.17125168210119127,
+      "significant": false,
+      "ols_coef": 0.07704768497228293,
+      "ols_p": 0.304840152832177,
+      "gbm_gain_share": 0.0
+    },
+    "area_University District": {
+      "coef": -0.11309480291858778,
+      "ci_lo": -0.34224585642945093,
+      "ci_hi": 0.12745685607922244,
+      "significant": false,
+      "ols_coef": -0.18644397339733165,
+      "ols_p": 0.1260469891379185,
+      "gbm_gain_share": 0.0
+    },
+    "area_West Seattle": {
+      "coef": 0.1293295259317822,
+      "ci_lo": -0.0325073046712882,
+      "ci_hi": 0.2715563869988861,
+      "significant": false,
+      "ols_coef": 0.15404363317950043,
+      "ols_p": 0.10154858960463889,
+      "gbm_gain_share": 0.0
+    }
+  },
+  "premium_coefficients": {
+    "sent_cleanliness": {
+      "coef": -0.008519883951423755,
+      "ci_lo": -0.025454529362939734,
+      "ci_hi": 0.011559606603438705,
+      "significant": false,
+      "ols_coef": -0.005932148324165628,
+      "ols_p": 0.51193664843415,
+      "gbm_gain_share": 0.03461128446728707
+    },
+    "talk_cleanliness": {
+      "coef": -0.012935036105709632,
+      "ci_lo": -0.02924153883810216,
+      "ci_hi": 0.002272329465484213,
+      "significant": false,
+      "ols_coef": -0.012182981034577472,
+      "ols_p": 0.12967773792320106,
+      "gbm_gain_share": 0.04908109766475611
+    },
+    "sent_location": {
+      "coef": 0.02476575849181006,
+      "ci_lo": 0.005095444221688632,
+      "ci_hi": 0.041891425955704796,
+      "significant": true,
+      "ols_coef": 0.019348721277699023,
+      "ols_p": 0.03198142143249857,
+      "gbm_gain_share": 0.05526221190165151
+    },
+    "talk_location": {
+      "coef": 0.055720868073079674,
+      "ci_lo": 0.03662797404142176,
+      "ci_hi": 0.07325921178067804,
+      "significant": true,
+      "ols_coef": 0.05156114891332809,
+      "ols_p": 1.79766116798593e-09,
+      "gbm_gain_share": 0.06278737252540982
+    },
+    "sent_host_communication": {
+      "coef": -0.006592541684953687,
+      "ci_lo": -0.025018562505699407,
+      "ci_hi": 0.013576104240879069,
+      "significant": false,
+      "ols_coef": 0.0012485908306192955,
+      "ols_p": 0.8961629652281107,
+      "gbm_gain_share": 0.03646620210374295
+    },
+    "talk_host_communication": {
+      "coef": 0.013798305923757144,
+      "ci_lo": -0.004869228594937728,
+      "ci_hi": 0.03102826555978542,
+      "significant": false,
+      "ols_coef": 0.011961014629426073,
+      "ols_p": 0.1510386649949616,
+      "gbm_gain_share": 0.0367383328504316
+    },
+    "sent_checkin": {
+      "coef": 0.016325780712008665,
+      "ci_lo": 0.0011418159447737785,
+      "ci_hi": 0.03367108428824979,
+      "significant": true,
+      "ols_coef": 0.010238228325911597,
+      "ols_p": 0.205599518473502,
+      "gbm_gain_share": 0.058042165817230505
+    },
+    "talk_checkin": {
+      "coef": 0.005934632653015148,
+      "ci_lo": -0.011967084982594032,
+      "ci_hi": 0.02207551521177007,
+      "significant": false,
+      "ols_coef": 0.004230863457564831,
+      "ols_p": 0.6081787132747838,
+      "gbm_gain_share": 0.031578748882351786
+    },
+    "sent_value": {
+      "coef": -0.014540104519690959,
+      "ci_lo": -0.03158179149436195,
+      "ci_hi": 0.0013110178862414835,
+      "significant": false,
+      "ols_coef": -0.0073616772786485206,
+      "ols_p": 0.34285229245571014,
+      "gbm_gain_share": 0.03889051711837045
+    },
+    "talk_value": {
+      "coef": -0.029105193711522214,
+      "ci_lo": -0.04671144584268852,
+      "ci_hi": -0.014138250614464234,
+      "significant": true,
+      "ols_coef": -0.025119585233839597,
+      "ols_p": 0.0016751893509675733,
+      "gbm_gain_share": 0.042927976002129734
+    },
+    "sent_accuracy": {
+      "coef": 0.022545378131801228,
+      "ci_lo": 0.00574540666379432,
+      "ci_hi": 0.037575201225792214,
+      "significant": true,
+      "ols_coef": 0.02249795249061204,
+      "ols_p": 0.0033393536536806896,
+      "gbm_gain_share": 0.039333247762245845
+    },
+    "talk_accuracy": {
+      "coef": 0.01326125185988044,
+      "ci_lo": -0.0024403039502452536,
+      "ci_hi": 0.02908378698074674,
+      "significant": false,
+      "ols_coef": 0.019559136456218203,
+      "ols_p": 0.01399810005972447,
+      "gbm_gain_share": 0.043647782696240124
+    },
+    "sent_noise": {
+      "coef": -0.007964156140927322,
+      "ci_lo": -0.02191860779166211,
+      "ci_hi": 0.009246085415761569,
+      "significant": false,
+      "ols_coef": -0.004480131259448112,
+      "ols_p": 0.5565512211384517,
+      "gbm_gain_share": 0.04466402492053295
+    },
+    "talk_noise": {
+      "coef": -0.00031810400682478167,
+      "ci_lo": -0.016308642394154596,
+      "ci_hi": 0.01698559056626032,
+      "significant": false,
+      "ols_coef": -0.008697616422963683,
+      "ols_p": 0.2632487894141876,
+      "gbm_gain_share": 0.03876807983754889
+    },
+    "sent_space_comfort": {
+      "coef": 0.018379701207417783,
+      "ci_lo": -0.0017774206751720479,
+      "ci_hi": 0.04035356901064625,
+      "significant": false,
+      "ols_coef": 0.021181802713246472,
+      "ols_p": 0.03273311529851554,
+      "gbm_gain_share": 0.04443161274345321
+    },
+    "talk_space_comfort": {
+      "coef": 0.020885846358049798,
+      "ci_lo": 0.003978700617221096,
+      "ci_hi": 0.03738679025337808,
+      "significant": true,
+      "ols_coef": 0.022441102011521556,
+      "ols_p": 0.006047597414621278,
+      "gbm_gain_share": 0.030497229761430864
+    },
+    "log_accommodates": {
+      "coef": -0.07024576892699501,
+      "ci_lo": -0.09417817279596563,
+      "ci_hi": -0.04573307600246964,
+      "significant": true,
+      "ols_coef": -0.07711208205502605,
+      "ols_p": 8.657635070862781e-09,
+      "gbm_gain_share": 0.10608774967356657
+    },
+    "bedrooms": {
+      "coef": 0.08227165126750169,
+      "ci_lo": 0.05959967508728344,
+      "ci_hi": 0.10828659337490144,
+      "significant": true,
+      "ols_coef": 0.0822120829836195,
+      "ols_p": 2.568382893972906e-14,
+      "gbm_gain_share": 0.06838051229749448
+    },
+    "log_reviews": {
+      "coef": -0.04569017106814163,
+      "ci_lo": -0.061437682405247156,
+      "ci_hi": -0.027814798517610137,
+      "significant": true,
+      "ols_coef": -0.0359021330939666,
+      "ols_p": 1.2313263207836774e-06,
+      "gbm_gain_share": 0.056370170341373135
+    },
+    "host_tenure_years": {
+      "coef": 0.012974661002205115,
+      "ci_lo": -0.0016574895196858471,
+      "ci_hi": 0.02994228242933325,
+      "significant": false,
+      "ols_coef": 0.01328529122959262,
+      "ols_p": 0.07158470818012039,
+      "gbm_gain_share": 0.03293614817325561
+    },
+    "n_amenities": {
+      "coef": -0.0026610829150652067,
+      "ci_lo": -0.01837888503513467,
+      "ci_hi": 0.013054304536847484,
+      "significant": false,
+      "ols_coef": 0.000730000456793065,
+      "ols_p": 0.9267047140837908,
+      "gbm_gain_share": 0.017352315369849537
+    },
+    "min_nights": {
+      "coef": 0.01768521307915525,
+      "ci_lo": 0.0008691274674054911,
+      "ci_hi": 0.03494360516371636,
+      "significant": true,
+      "ols_coef": 0.013629196436435523,
+      "ols_p": 0.17754669127823963,
+      "gbm_gain_share": 0.029997054536876643
+    },
+    "room_Private room": {
+      "coef": -0.0031177412170403226,
+      "ci_lo": -0.019875879501027864,
+      "ci_hi": 0.011971316796527387,
+      "significant": false,
+      "ols_coef": -0.005637281624036702,
+      "ols_p": 0.5296068823025291,
+      "gbm_gain_share": 0.0011481625527706314
+    },
+    "room_Shared room": {
+      "coef": 0.0013130175753675469,
+      "ci_lo": -0.01567365974729209,
+      "ci_hi": 0.021601855606885594,
+      "significant": false,
+      "ols_coef": -0.005164260920979398,
+      "ols_p": 0.5805713427158323,
+      "gbm_gain_share": 0.0
+    }
+  },
+  "comp_sets_total": 112,
+  "listings_without_comp_set": 86,
+  "listings_without_comp_set_share": 0.047045951859956234,
+  "premium_sd": 0.3168676924749938,
+  "rating_sd": 4.1239373399367745,
+  "sensitivity_min_reviews": {
+    "min_reviews_5": {
+      "n": 2315,
+      "ridge_r2_full": 0.4157265419114574,
+      "ridge_r2_controls_only": 0.15323694240372931,
+      "top_aspect_feature": "sent_space_comfort",
+      "top_aspect_coef": 0.8981618641285942
+    },
+    "min_reviews_10": {
+      "n": 1828,
+      "ridge_r2_full": 0.3959967696203196,
+      "ridge_r2_controls_only": 0.08534763355385733,
+      "top_aspect_feature": "sent_space_comfort",
+      "top_aspect_coef": 0.9240746202417539
+    },
+    "min_reviews_20": {
+      "n": 1182,
+      "ridge_r2_full": 0.5336715869302793,
+      "ridge_r2_controls_only": 0.11370724487226191,
+      "top_aspect_feature": "sent_space_comfort",
+      "top_aspect_coef": 0.8558524923815464
+    }
+  }
+}

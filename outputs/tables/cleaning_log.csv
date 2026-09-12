@@ -1,0 +1,18 @@
+table,step,rows_removed,rows_remaining,rationale
+listings,raw rows loaded,0,3818,"listings.csv, 92 columns"
+listings,select analysis columns,0,3818,"33 of 92 columns kept; the rest are URLs, free text and scrape metadata"
+listings,drop non-positive price,0,3818,"a nightly price of zero is a placeholder, not an offer"
+listings,drop missing capacity,0,3818,capacity is needed to build a comparable set
+listings,flag listings with no rating (kept),0,3818,"647 listings have no review_scores_rating (too few reviews); kept for description, excluded from modelling where the outcome is undefined"
+listings,final,0,3818,0.0% of raw listing rows removed
+reviews,raw rows loaded,0,84849,reviews.csv as published by Inside Airbnb
+reviews,drop empty comment,18,84831,null or whitespace-only comment: a review event with no text
+reviews,drop automated cancellation notices,805,84026,"platform-generated text ('The host canceled this reservation...'), not guest opinion"
+reviews,drop reviews with no matching listing,0,84026,review references a listing_id absent from listings.csv
+reviews,drop non-English reviews,839,83187,"non-Latin script, or more non-English than English function words; the aspect lexicon and VADER are English-only"
+reviews,language rule counterfactual (kept),0,83187,"a rule requiring 2+ English function words to be present would additionally drop 1,367 surviving reviews, most of them terse English ('Great location, comfy bed'); rejected for that reason"
+reviews,cancellation rule counterfactual (kept),0,83187,91 surviving reviews mention a cancellation in passing and are guest opinion; the filter is anchored to the start of the review to keep them
+reviews,drop duplicated reviewer/listing/text,19,83168,"same reviewer, same listing, identical text: a double-post"
+reviews,flag very short reviews (kept),0,83168,"276 reviews under 20 chars kept for corpus counts, excluded from aspect scoring"
+reviews,language screen recall audit (kept),0,83168,51 surviving reviews carry a non-English function word and no English one: an upper bound on one failure mode of the screen
+reviews,final,1681,83168,2.0% of raw review rows removed
