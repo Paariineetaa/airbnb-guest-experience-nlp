@@ -1,0 +1,26 @@
+name: Temporary README asset export
+
+on:
+  push:
+    branches:
+      - chatgpt-readme-export-20260914
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package README and figures
+        run: |
+          mkdir -p export
+          cp README.md export/
+          if [ -d outputs/figures ]; then cp -R outputs/figures export/figures; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: readme-assets
+          path: export
+          if-no-files-found: error
+          retention-days: 1
